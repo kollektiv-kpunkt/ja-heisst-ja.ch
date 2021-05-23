@@ -1,0 +1,12 @@
+/* Webfont: Replica-Bold */@font-face {
+    font-family: 'Replica';
+    src: url('Replica-Bold.eot'); /* IE9 Compat Modes */
+    src: url('Replica-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Replica-Bold.woff') format('woff'), /* Modern Browsers */
+         url('Replica-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Replica-Bold.svg#Replica-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+

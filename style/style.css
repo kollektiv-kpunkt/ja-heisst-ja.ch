@@ -1,0 +1,23 @@
+@import "normalize.css";
+@import "defualts.css";
+@import "typo.css";
+@import "elements.css";
+@import "accordion.css";
+@import "sections.css";
+@import "support.css";
+
+@import "mobile.css" only screen and (max-width: 980px);
+
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+html.noscroll {
+    overflow: hidden;
+}
+
+:focus {
+    outline: none;
+}

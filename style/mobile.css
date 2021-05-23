@@ -1,0 +1,93 @@
+html {
+    font-size: 95%;
+}
+
+.buttongrid {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    width: 100%;
+}
+
+.buttongrid.m-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 359px) {
+    .buttongrid.m-2 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    h2 {font-size: 2.4rem;}
+    h1 {
+        font-size: 3.209rem;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    h2 {font-size: 1.9rem;}
+    .h-sub{font-size: 1rem;}
+}
+
+@media only screen and (max-width: 580px) {
+    form {
+        grid-template-columns: 1fr;
+    }
+
+    form button {
+        grid-column: 1;
+    }
+    
+}
+
+#nav-cont, #scroll-nav-cont {
+    display: none;
+}
+
+#m-nav-cont, #m-scroll-nav-cont {
+    display: flex;
+}
+
+.hamburger {
+    margin: 0 0 0 auto;
+}
+
+#head-cont .hamburger-inner, #head-cont .hamburger-inner:after, #head-cont .hamburger-inner:before {
+    background-color: white;
+}
+
+#m-scroll-nav-cont {
+    transform: scale(0.7);
+    transform-origin: top right;
+}
+
+#scroll-head-cont {
+    height: 40px;
+}
+
+#scroll-head-cont .hamburger-inner, #scroll-head-cont .hamburger-inner:after, #scroll-head-cont .hamburger-inner:before {
+    background-color: var(--prim);
+}
+
+#h-sub {
+    font-size: 1rem;
+}
+
+#head-cont img {
+    height: 57px;
+}
+
+@media only screen and (max-width: 600px) {
+    .button {
+        font-size: 1rem;
+    }
+
+    .wrap label div:first-child {
+        font-size: 1rem;
+    }
+
+    #menu-container a h1 {
+        font-size: 2.5rem;
+    }
+}

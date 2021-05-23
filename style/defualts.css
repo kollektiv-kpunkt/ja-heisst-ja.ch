@@ -1,0 +1,15 @@
+:root {
+    --prim: #36006B;
+    --black: #373737;
+}
+
+
+.sm-cont {
+    padding: 0 var(--scpad);
+}
+.md-cont {
+    padding: 0 var(--mcpad);
+}
+.lg-cont {
+    padding: 0 var(--lcpad);
+}
