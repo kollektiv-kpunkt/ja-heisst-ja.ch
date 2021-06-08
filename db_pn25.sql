@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.3
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 02. Feb 2021 um 11:31
--- Server-Version: 10.4.14-MariaDB
--- PHP-Version: 7.4.11
+-- Erstellungszeit: 08. Jun 2021 um 12:59
+-- Server-Version: 10.4.17-MariaDB
+-- PHP-Version: 7.3.27
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,6 +20,26 @@ SET time_zone = "+00:00";
 --
 -- Datenbank: `db_pn25`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Tabellenstruktur für Tabelle `activists`
+--
+
+CREATE TABLE `activists` (
+  `activist_timestamp` timestamp NOT NULL DEFAULT current_timestamp(),
+  `activist_ID` int(11) NOT NULL,
+  `activist_UUID` varchar(15) NOT NULL,
+  `activist_fname` varchar(100) NOT NULL,
+  `activist_lname` varchar(100) NOT NULL,
+  `activist_email` varchar(255) NOT NULL,
+  `activist_address` varchar(255) NOT NULL,
+  `activist_plz` varchar(255) NOT NULL,
+  `activist_ort` varchar(255) NOT NULL,
+  `activist_phone` varchar(15) NOT NULL,
+  `activist_lang` varchar(2) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -4251,6 +4271,13 @@ CREATE TABLE `test` (
 --
 
 --
+-- Indizes für die Tabelle `activists`
+--
+ALTER TABLE `activists`
+  ADD PRIMARY KEY (`activist_ID`),
+  ADD UNIQUE KEY `activist_UUID` (`activist_UUID`);
+
+--
 -- Indizes für die Tabelle `emails`
 --
 ALTER TABLE `emails`
@@ -4291,6 +4318,12 @@ ALTER TABLE `test`
 --
 -- AUTO_INCREMENT für exportierte Tabellen
 --
+
+--
+-- AUTO_INCREMENT für Tabelle `activists`
+--
+ALTER TABLE `activists`
+  MODIFY `activist_ID` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT für Tabelle `emails`

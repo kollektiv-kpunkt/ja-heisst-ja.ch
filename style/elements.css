@@ -10,7 +10,7 @@
 
 #head-cont {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
 }
 
 #nav-cont {
@@ -57,7 +57,7 @@
 
 #scroll-head-cont {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
 }
 
 #scroll-nav-cont {
@@ -237,19 +237,30 @@ button.button {
 /* Form */
 
 form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 1rem;
-    row-gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-input[type=text], input[type=email], input[type=number] {
+input[type=text], input[type=email], input[type=number], select {
     border-radius: 0;
     border: none;
     border-bottom: 2px solid var(--prim);
     font-size: 1rem;
     padding: 0 0 0.3rem 0;
     width: 100%;
+    margin-bottom: 1rem;
+}
+
+input.input-half {
+    width: 47.5%;
+    width: calc(50% - 0.5rem);
+}
+
+@media only screen and (max-width: 520px) {
+    input.input-half {
+        width: 100%;
+    }
 }
 
 ::-webkit-input-placeholder {
@@ -270,6 +281,10 @@ input[type=text], input[type=email], input[type=number] {
 
 form button {
     grid-column: 2;
+}
+
+option[disabled] {
+    color: #707070;
 }
 
 label {
@@ -298,13 +313,16 @@ label.opt-in {
     margin-top: 0.5rem;
 }
 
+button[type="submit"] {
+    margin: 0.5rem 0 0 auto;
+    width: 47.5%;
+    width: calc(50% - 0.5rem);
+}
+
+
 /* BOTTOM BAR */
 #bottom-bar {
     background-color: var(--prim);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100vw;
 }
 
 #bottom-bar.nofix {
@@ -371,4 +389,101 @@ label.opt-in {
 
 html.noscroll {
     overflow: hidden;
+}
+
+/* CTA BOX */
+#cta-box {
+    background-color: var(--prim);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 6px 10px rgba(0, 0, 0, 0.14), 0px 1px 18px rgba(0, 0, 0, 0.12);
+}
+
+#cta-box h2 {
+    color: white;
+}
+
+#cta-box .button {
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+}
+
+/* PROGRESS BAR */
+#progress-container {
+    margin-top: -1rem;
+}
+#arrow-container {
+    margin-bottom: 0.25rem;
+}
+
+#arrow-inner {
+    display: flex;
+    width: fit-content;
+    transform: translate(-61%,75%);
+}
+
+#arrow-inner * {
+    margin: auto 0;
+}
+
+#arrow-container i {
+    font-size: 2rem;
+    line-height: 0.75;
+}
+
+#amount-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#progress-outer {
+    display: flex;
+    background-color: var(--prim);
+    width: 100%;
+    border-radius: 100px;
+    margin: 0 0 2.5rem 0;
+}
+
+#progress-inner {
+    margin: 0.25rem;
+    background-color: white;
+    height: 1.5rem;
+    border-radius: 100px;
+}
+
+#arrow-container, #progress-inner {
+    transition: 1s ease-in-out margin-left, 1s ease-in-out width;
+}
+
+
+/* ALERTS*/
+.alert {
+    padding: 0.75rem;
+    color: var(--alertcolor);
+    background-color: var(--alertbg);
+    border: 1px solid var(--alertcolor);
+    border-radius: 3px;
+    margin-bottom: 1.5rem;
+}
+
+.alert p {
+    margin: 0;
+}
+
+.alert.error {
+    --alertcolor: #721c24;
+    --alertbg: #f5c6cb;
+}
+
+.alert.danger {
+    --alertcolor: #856404;
+    --alertbg: #ffeeba;
+}
+
+.alert.success {
+    --alertcolor: #155724;
+    --alertbg: #c3e6cb;
 }
