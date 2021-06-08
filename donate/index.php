@@ -4,8 +4,8 @@ include "../elements/header.elem.php";
 
 <div class="section">
     <div class="sm-cont section-cont">
-        <h2 class="form-title"><?= $lang_menu2 ?></h2>
-        <p class="form-lead"><?= $lang_spenden ?></p>
+        <h2 class="form-title"><?= $i18n["donate"] ?></h2>
+        <p class="form-lead"><?= $i18n["donate-content"] ?></p>
         <div class="rnw-widget-container"></div>
         <script src="https://tamaro.raisenow.com/sp-schweiz/latest/widget.js"></script>
         <script>

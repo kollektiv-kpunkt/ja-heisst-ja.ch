@@ -31,7 +31,7 @@ $goal_format = number_format($goal, 0, ",", "'");
 		<p class="h-sub"><?= $i18n["h-lead"] ?></p>
 		<div class="buttongrid center">
 			<a class="button neg" href="#more"><?= $i18n["b_learnmore"] ?></a>
-			<a class="button neg line" href="/donate"><?= $i18n["b_support"] ?></a>
+			<a class="button neg line" href="/#<?= $i18n["b_participate"] ?>"><?= $i18n["b_support"] ?></a>
 		</div>
 	</div>
 

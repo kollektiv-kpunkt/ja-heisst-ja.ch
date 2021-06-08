@@ -4,11 +4,8 @@ include "../elements/header.elem.php";
 
 <div class="section">
     <div class="sm-cont section-cont">
-        <?= $lang_privacy1 ?>
+        <?= $i18n["privacy1"] ?>
     </div>
-</div>
-<div class="sm-cont" style="padding-top: 4rem; padding-bottom: 4rem; margin-top: -4rem;" id="how">
-    <?= $lang_privacy2 ?>
 </div>
 <div id="bottom-bar" class="nofix">
     <div class="sm-cont" id="bottom-bar-inner">
