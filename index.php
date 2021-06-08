@@ -1,6 +1,8 @@
 <?php
 include __DIR__ . "/elements/header.elem.php";
 
+$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'];
+
 $pledges = mysqli_num_rows(mysqli_query($conn, "SELECT * FROM activists"));
 
 if ($pledges < 200) {
@@ -63,8 +65,8 @@ $goal_format = number_format($goal, 0, ",", "'");
 	<form action="" class="ajax-form" data-interface="1.php" data-step="1">
 		<select name="anrede" required>
 			<option disabled selected value=""><?= $i18n["anrede-select"] ?></option>
-			<option value="herr"><?= $i18n["anrede-herr"] ?></option>
 			<option value="frau"><?= $i18n["anrede-frau"] ?></option>
+			<option value="herr"><?= $i18n["anrede-herr"] ?></option>
 			<option value="neutral"><?= $i18n["anrede-neutral"] ?></option>
 		</select>
 		<input class="input-half" type="text" name="fname" placeholder="<?= $i18n["fname"] ?>" required>
@@ -88,9 +90,9 @@ $goal_format = number_format($goal, 0, ",", "'");
 	<form action="" class="ajax-form" data-step="3" style="display:none">
 		<h4 style="margin-top: 0.5rem"><?= $i18n["step3-title"] ?></h4>
 		<p style="margin-top:0;"><?= $i18n["step3-content"] ?></p>
-		<div class="buttongrid m-2">
-			<a class="button" href="#"><?= $i18n["step3-wa-button"] ?></a>
-			<a class="button line" href="#"><?= $i18n["step3-tele-button"] ?></a>
+		<div class="buttongrid">
+			<a class="button" target="_blank" href="https://api.whatsapp.com/send?text=<?= urlencode($i18n["step3-mobitext"] . "\n" . $actual_link)?>"><?= $i18n["step3-wa-button"] ?></a>
+			<a class="button line" target="_blank" href="https://t.me/share/url?url=<?= urlencode($actual_link)?>&text=<?= urlencode($i18n["step3-mobitext"] . "\n" . $actual_link)?>"><?= $i18n["step3-tele-button"] ?></a>
 		</div>
 		<input type="hidden" name="uuid" value="">
 	</form>

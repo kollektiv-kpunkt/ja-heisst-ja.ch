@@ -19,7 +19,7 @@ $i18n = array(
     "b_support" => "Unterstützen",
 
     // FORM DEFAULTS
-    "anrede-select" => "Bitte anrede auswählen...",
+    "anrede-select" => "Bitte Anrede auswählen...",
     "anrede-herr" => "Herr",
     "anrede-frau" => "Frau",
     "anrede-neutral" => "Neutrale Anrede",
@@ -31,10 +31,11 @@ $i18n = array(
     "place" => "Ort",
     "phone" => "Telefonnummer (optional)",
     "form_details" => "Bitte vervollständige deine Angaben:",
-    "step3-title" => "Danke für deine Unterstützung!",
-    "step3-content" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "step3-title" => "Danke für dein Engagement!",
+    "step3-content" => "Du bist nun eingeschrieben für das Aktionsnetzwerk der Kampagne „Nur Ja heisst Ja“. In Kürze erhältst du von uns ein Mail mit weiterführenden Informationen. Hast du noch Bekannte oder Freund*innen, die sich für dieses Anliegen interessieren? Erzähle ihnen, warum dir die Kampagne wichtig ist und mobilisiere sie für unser Aktionsnetzwerk!",
     "step3-wa-button" => "Auf WhatsApp teilen",
     "step3-tele-button" => "Auf Telegram teilen",
+    "step3-mobitext" => "Das Sexualstrafrecht wird aktuell überarbeitet. Wir fordern eine Revision nach dem Grundsatz „Nur Ja heisst Ja“: Jede sexuelle Handlung ohne Zustimmung ist als Vergewaltigung anzuerkennen und zwar unabhängig von Körper und Geschlecht der betroffenen Person. Nur so kann das Gesetz unsere sexuelle Selbstbestimmung schützen! Ich habe mich heute für das Aktionsnetzwerk „Nur Ja heisst Ja“ eingeschrieben. Bist du auch dabei?",
 
     /////////// PAGES ///////////
     // Home
@@ -92,7 +93,8 @@ $i18n = array(
     EOD,
 
     // MESSAGES
-    "e-unknown" => "Da ist etwas schief gelaufen. Bitte versuch es nochmals!"
+    "e-unknown" => "Da ist etwas schiefgelaufen. Bitte versuch es nochmals!",
+    "e-already-registered" => "Du bist bereits für unser Aktionsnetzwerk eingetragen!"
     
 )
 
