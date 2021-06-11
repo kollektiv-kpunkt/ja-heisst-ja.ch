@@ -10,7 +10,7 @@ $i18n = array(
     // MENU
     "home" => "Home",
     "more_info" => "Plus d'infos",
-    "keyring" => "Consent is Key",
+    "keyring" => "Le consentement est clé",
     "donate" => "Faire un don",
     
     // BUTTONS
@@ -31,27 +31,27 @@ $i18n = array(
     "place" => "Lieu",
     "phone" => "Téléphone (facultatif)",
     "form_details" => "Veuillez compléter vos coordonnées:",
-    "step3-title" => "Merci pour votre engagement !",
-    "step3-content" => "Du bist nun eingeschrieben für das Aktionsnetzwerk der Kampagne „Nur Ja heisst Ja“. In Kürze erhältst du von uns ein Mail mit weiterführenden Informationen. Hast du noch Bekannte oder Freund*innen, die sich für dieses Anliegen interessieren? Erzähle ihnen, warum dir die Kampagne wichtig ist und mobilisiere sie für unser Aktionsnetzwerk!",
+    "step3-title" => "Merci pour ton engagement !",
+    "step3-content" => "Tu es maintenant inscrit-e au réseau d’action pour la campagne « Seul un oui est un oui ». Tu recevras sous peu un courriel de notre part contenant de plus amples informations. As-tu des ami-e-s ou des connaissances qui s'intéressent à cette question ? Dis-leur pourquoi la campagne est importante pour toi et mobilise-les pour le réseau d’action !",
     "step3-wa-button" => "Partager sur WhatsApp",
     "step3-tele-button" => "Partager sur Telegram",
-    "step3-mobitext" => "Das Sexualstrafrecht wird aktuell überarbeitet. Wir fordern eine Revision nach dem Grundsatz „Nur Ja heisst Ja“: Jede sexuelle Handlung ohne Zustimmung ist als Vergewaltigung anzuerkennen und zwar unabhängig von Körper und Geschlecht der betroffenen Person. Nur so kann das Gesetz unsere sexuelle Selbstbestimmung schützen! Ich habe mich heute für das Aktionsnetzwerk „Nur Ja heisst Ja“ eingeschrieben. Bist du auch dabei?",
+    "step3-mobitext" => "Le droit pénal relatif aux infractions sexuelles est actuellement en cours de révision. Nous demandons que celle-ci soit basée sur le principe « Seul un oui est un oui » : tout acte sexuel sans consentement doit être reconnu par la loi comme un viol – indépendamment du genre et du corps de la personne concernée. Ce n’est qu’ainsi que le droit pénal sexuel peut protéger efficacement le droit à l’autodétermination sexuelle. Je me suis inscrit-e aujourd’hui pour participer au réseau d’action « Seul un oui est un oui ». Veux-tu aussi en faire partie ?",
 
     /////////// PAGES ///////////
     // Home
     "h-title" => "Seul un OUI est un OUI",
-    "h-lead" => "Le Conseil des États a présenté sa proposition de loi portant révision du droit pénal en matière sexuelle. Elle est insuffisante. Nous exigeons que le principe de base « seul un oui est un oui » soit respecté : Tous les actes sexuels sans consentement doit être reconnue par la loi comme un viol, quels que soient le genre ou le corps de la personne concernée.",
+    "h-lead" => "Le Conseil des États a présenté sa proposition de loi portant révision du droit pénal en matière sexuelle. Elle est insuffisante. Nous exigeons que le principe de base « seul un oui est un oui » soit respecté : tout acte sexuel sans consentement doit être reconnu par la loi comme un viol – indépendamment du genre et du corps de la personne concernée.",
     "s1-title" => "Devenez actif maintenant !",
     "s1-content" => 
     <<<EOD
-    <p>Über 11‘000 Personen haben auf unseren Aufruf hin eine Stellungnahme zur Revision des Sexualstrafrechts verschickt und fordern die Neudefinition von Vergewaltigung nach dem Grundsatz „Nur Ja heisst Ja“. Für uns ein wichtiger Zwischenerfolg: Noch nie haben sich in einer Vernehmlassung so viele Einzelpersonen zu einem Gesetzesentwurf geäussert!</p>
-    <p>Der Gesetzesentwurf geht nun zurück an die zuständige Kommission. Für uns ist klar: Das war erst der Anfang! Nun müssen wir sicherstellen, dass wir in den Kommissionen und Räten eine Mehrheit für unsere Forderung haben. Wir werden so lange kämpfen, bis das Gesetz nicht mehr das Patriarchat, sondern unsere sexuelle Selbstbestimmung schützt.</p>
-    <p>Bist du dabei? Werde heute noch Teil unseres Aktionsnetzwerkes und helfe uns bei der Mobilisierung und Durchführung von zukünftigen Aktionen. Als Aktivist*in laden wir dich zu Kampagnenveranstaltungen und -aktionen ein, halten dich über unsere online Kampagne auf dem laufenden und schicken dir unser Kampagnenmaterial.</p>
+    <p>Suite à notre appel, plus de 11’000 personnes ont pris position dans le cadre de la révision du droit pénal relatif aux infractions sexuelles, exigeant une nouvelle définition du viol fondée sur le principe « seul un oui est un oui ». Pour nous, il s’agit d’un premier succès important : jamais autant de personnes n’avaient jusqu’aujourd’hui exprimé leur opinion sur un projet de loi au cours d’une procédure de consultation.</p>
+    <p>Le projet de loi retourne maintenant à la commission compétente. Pour nous, une chose est claire : ce n’est que le début ! Maintenant, nous devons nous assurer que nous avons une majorité soutenant notre demande dans les commissions et les deux Chambres fédérales. Nous continuerons à nous battre jusqu’à ce que la loi ne protège non pas le patriarcat, mais bien notre autodétermination sexuelle.</p>
+    <p>Tu veux nous soutenir ? Alors rejoins notre réseau d’action dès aujourd’hui et aide-nous à nous mobiliser pour nos futures actions. En tant que militante, nous t’inviterons aux événements et actions de la campagne, nous te tiendrons au courant de notre campagne en ligne et nous t’enverrons notre matériel de campagne.</p>
     EOD,
 
-    "cta-title" => "Consent is Key!",
-    "cta-content" => "Mach unsere Forderung „Nur Ja heisst Ja“ jetzt sichtbar und bestelle unentgeltlich einen Soli-Schlüsselanhänger „Consent is key“! Das Design von Vollgas Studio zeigt, dass gegenseitige Zustimmung alles ist, wenn es um Sex geht.",
-    "cta-button" => "Anhänger bestellen",
+    "cta-title" => "LE CONSENTEMENT EST CLÉ !",
+    "cta-content" => "Rends notre revendication « Seul un oui est un oui » visible et commande un porte-clés « Le consentement est clé » (Consent is key) ! Le design de Vollgas Studio montre justement que le consentement est clé quand il est question de relations sexuelles.",
+    "cta-button" => "Commander un porte-clés",
     "cta-link" => "https://www.sp-ps.ch/fr/porte-cles-seul-un-oui-est-un-oui",
 
     "s2-title" => "De quoi s’agit-il ?",
@@ -104,9 +104,49 @@ $i18n = array(
     EOD,
 
     // MESSAGES
-    "e-unknown" => "Da ist etwas schiefgelaufen. Bitte versuch es nochmals!",
-    "e-already-registered" => "Du bist bereits für unser Aktionsnetzwerk eingetragen!"
-    
+    "e-unknown" => "Oups, quelque chose n’a pas fonctionné. Réessaye s’il te plaît !",
+    "e-already-registered" => "Tu es déjà inscrit-e au réseau d’action !",
+
+    // EMAIL
+    "email-subject" => "Réseau d’action « Seul un oui est un oui »",
+    "email-content" => <<<EOD
+    <h2 style="margin-top: 0.5rem; font-size: 21px;">Bonjour {fname}</h2>
+    <p><b>Tu t’es inscrit-e au réseau d’action de la campagne « Seul un oui est un oui » - nous sommes très heureuses et heureux de ta participation !</b></p>
+    <p>Les réponses à la consultation sur la révision du code pénal relatif aux infractions sexuelles sont en cours de prise en considération. En août, la question reviendra devant la Commission des affaires juridiques du Conseil des États (CAJ-E), et probablement lors de la session d’hiver devant le Conseil des États lui-même. Pour que les décideurs et décideuses entendent nos innombrables voix, nous accompagnons le processus parlementaire de campagnes en ligne et sur le terrain.</p>
+    <p>Les préparatifs battent leur plein. En juillet, nous t’enverrons un courriel avec différentes options d’action, dates d’événements et tous les détails importants.</p>
+    <p>As-tu des ami-e-s ou des connaissances qui s'intéressent à cette question ? Dis-leur pourquoi la campagne est importante pour toi et mobilise-les pour le réseau d’action !</p>
+    <table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; box-sizing: border-box;">
+        <tbody>
+            <tr>
+                <td align="center" style="font-family: sans-serif; font-size: 14px; vertical-align: top; padding-bottom: 15px;">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;">
+                    <tbody>
+                    <tr>
+                        <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #25D366; border-radius: 5px; text-align: center;"> <a href="{WA-link}" target="_blank" style="min-width: 250px; display: inline-block; color: #ffffff; background-color: #25D366; border: solid 1px #25D366; border-radius: 5px; box-sizing: border-box; cursor: pointer; text-decoration: none; font-size: 14px; font-weight: bold; margin: 0; padding: 12px 25px; text-transform: capitalize; border-color: #25D366;">{WA-text}</a> </td>
+                    </tr>
+                    </tbody>
+                </table>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="font-family: sans-serif; font-size: 14px; vertical-align: top; padding-bottom: 15px;">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;">
+                    <tbody>
+                    <tr>
+                        <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #0088CC; border-radius: 5px; text-align: center;"> <a href="{Tele-link}" target="_blank" style="min-width: 250px; display: inline-block; color: #ffffff; background-color: #0088CC; border: solid 1px #0088CC; border-radius: 5px; box-sizing: border-box; cursor: pointer; text-decoration: none; font-size: 14px; font-weight: bold; margin: 0; padding: 12px 25px; text-transform: capitalize; border-color: #0088CC;">{Tele-text}</a> </td>
+                    </tr>
+                    </tbody>
+                </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Ensemble, nous pouvons faire bouger les choses ! Merci de pouvoir compter sur ton soutien dans cette importante campagne !</p>
+    <p>Meilleures salutations – et à bientôt,<br>
+    <b>Chiara Horber de l’équipe des campagnes du PS Suisse</b></p>
+    EOD,
+    "email-foot1" => "Parti socialiste suisse, Secrétariat central",
+    "email-foot2" => "Theaterplatz 4, Case postale, 3001 Bern",
 )
 
 ?>

@@ -94,8 +94,48 @@ $i18n = array(
 
     // MESSAGES
     "e-unknown" => "Da ist etwas schiefgelaufen. Bitte versuch es nochmals!",
-    "e-already-registered" => "Du bist bereits für unser Aktionsnetzwerk eingetragen!"
-    
+    "e-already-registered" => "Du bist bereits für unser Aktionsnetzwerk eingetragen!",
+
+    // EMAIL
+    "email-subject" => "Aktionsnetzwerk „Nur Ja heisst Ja“",
+    "email-content" => <<<EOD
+    <h2 style="margin-top: 0.5rem; font-size: 21px;">Hallo {fname}</h2>
+    <p><b>Du bist nun eingeschrieben für das Aktionsnetzwerk der Kampagne „Nur Ja heisst Ja“. Wir freuen uns sehr, dass du dabei bist!</b></p>
+    <p>Die Vernehmlassungsantworten zum Sexualstrafrecht werden momentan ausgewertet. Im August kommt das Geschäft zurück in die Rechtskommission des Ständerats (RK-S), und voraussichtlich in der Wintersession in den Ständerat. Um sicherzustellen, dass die Entscheidungsträger:innen unsere unzähligen Stimmen hören, begleiten wir den parlamentarischen Prozess mit Online- und Offline-Aktionen.</p>
+    <p>Die Vorbereitungen dafür laufen auf Hochtouren. Im Juli schicken wir dir ein Mail mit den verschiedenen Aktionsmöglichkeiten, Veranstaltungsdaten und allen wichtigen Details.</p>
+    <p>Hast du noch Bekannte oder Freund*innen, die sich für dieses Anliegen interessieren? Erzähle ihnen, warum dir die Kampagne wichtig ist und mobilisiere sie für unser Aktionsnetzwerk!</p>
+    <table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; box-sizing: border-box;">
+        <tbody>
+            <tr>
+                <td align="center" style="font-family: sans-serif; font-size: 14px; vertical-align: top; padding-bottom: 15px;">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;">
+                    <tbody>
+                    <tr>
+                        <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #25D366; border-radius: 5px; text-align: center;"> <a href="{WA-link}" target="_blank" style="min-width: 350px; display: inline-block; color: #ffffff; background-color: #25D366; border: solid 1px #25D366; border-radius: 5px; box-sizing: border-box; cursor: pointer; text-decoration: none; font-size: 14px; font-weight: bold; margin: 0; padding: 12px 25px; text-transform: capitalize; border-color: #25D366;">{WA-text}</a> </td>
+                    </tr>
+                    </tbody>
+                </table>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="font-family: sans-serif; font-size: 14px; vertical-align: top; padding-bottom: 15px;">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;">
+                    <tbody>
+                    <tr>
+                        <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #0088CC; border-radius: 5px; text-align: center;"> <a href="{Tele-link}" target="_blank" style="min-width: 350px; display: inline-block; color: #ffffff; background-color: #0088CC; border: solid 1px #0088CC; border-radius: 5px; box-sizing: border-box; cursor: pointer; text-decoration: none; font-size: 14px; font-weight: bold; margin: 0; padding: 12px 25px; text-transform: capitalize; border-color: #0088CC;">{Tele-text}</a> </td>
+                    </tr>
+                    </tbody>
+                </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Zusammen können wir viel bewegen! Danke, dass wir in dieser wichtigen Kampagne auf deine Unterstützung zählen können!</p>
+    <p>Liebe Grüsse und bis bald,<br>
+    <b>Chiara Horber vom Kampagnenteam der SP Schweiz</b></p>
+    EOD,
+    "email-foot1" => "Sozialdemokratische Partei der Schweiz, Zentralsekretariat",
+    "email-foot2" => "Theaterplatz 4, Postfach, 3001 Bern",
 )
 
 ?>

@@ -15,6 +15,7 @@ $(".ajax-form").submit( function(e){
                 thisForm.css("display", "none")
                 nextForm.css("display", "flex")
                 nextForm.children("input[name='uuid']").val(response.uuid)
+                thisForm.siblings(".alert").css("display", "none")
             } else {
                 thisForm.siblings(".alert").addClass(response.type)
                 thisForm.siblings(".alert").html(response.text)
