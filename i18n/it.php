@@ -31,28 +31,28 @@ $i18n = array(
     "place" => "Località",
     "phone" => "Telefono (opzionale)",
     "form_details" => "Si prega di completare i vostri dati:",
-    "step3-title" => "Grazie per il vostro impegno!",
-    "step3-content" => "Du bist nun eingeschrieben für das Aktionsnetzwerk der Kampagne „Nur Ja heisst Ja“. In Kürze erhältst du von uns ein Mail mit weiterführenden Informationen. Hast du noch Bekannte oder Freund*innen, die sich für dieses Anliegen interessieren? Erzähle ihnen, warum dir die Kampagne wichtig ist und mobilisiere sie für unser Aktionsnetzwerk!",
+    "step3-title" => "Grazie del tuo impegno!",
+    "step3-content" => "Ora sei iscritta(-o) nella rete attivista per la campagna 'Solo se sì'. Tra poco riceverai una mail con ulteriori informazioni. Hai conoscenti o amiche che si interessano al tema? Racconta loro perché ritieni la campagna importante, e invitali di aderire alla nostra rete!",
     "step3-wa-button" => "Condividere su WhatsApp",
     "step3-tele-button" => "Condividere su Telegram",
-    "step3-mobitext" => "Das Sexualstrafrecht wird aktuell überarbeitet. Wir fordern eine Revision nach dem Grundsatz „Nur Ja heisst Ja“: Jede sexuelle Handlung ohne Zustimmung ist als Vergewaltigung anzuerkennen und zwar unabhängig von Körper und Geschlecht der betroffenen Person. Nur so kann das Gesetz unsere sexuelle Selbstbestimmung schützen! Ich habe mich heute für das Aktionsnetzwerk „Nur Ja heisst Ja“ eingeschrieben. Bist du auch dabei?",
+    "step3-mobitext" => "Il diritto penale in materia sessuale è in corso di revisione. Noi chiediamo una revisione secondo il principio «Solo se sì»: qualsiasi atto sessuale imposto senza consenso deve essere considerato violenza carnale, indipendentemente dal sesso e dal corpo della persona che la subisce. Questa è l’unica soluzione per fare in modo che il diritto penale in materia di reati sessuali garantisca una tutela effettiva del diritto all’autodeterminazione sessuale. Mi sono iscritta alla rete attivista «Solo se sì». Partecipi anche tu?",
 
     /////////// PAGES ///////////
     // Home
     "h-title" => "Solo se sì!",
-    "h-lead" => "Il Consiglio degli Stati ha presentato la sua proposta di revisione del diritto penale in materia di reati sessuali. Nota: insufficiente. Noi rivendichiamo con fermezza che debba valere il principio che afferma «Solo se sì»: Tutti gli atti sessuali imposta senza consenso deve essere considerata violenza carnale, indipendentemente dal sesso e dal fisico della persona che la subisce.",
-    "s1-title" => "Diventa attivo ora!",
+    "h-lead" => "Il Consiglio degli Stati ha presentato la sua proposta di revisione del diritto penale in materia di reati sessuali. Nota: insufficiente. Noi rivendichiamo con fermezza che debba valere il principio che afferma «Solo se sì»: qualsiasi atto sessuale imposto senza consenso deve essere considerato violenza carnale, indipendentemente dal sesso e dal corpo della persona che la subisce.",
+    "s1-title" => "Attivati ora!",
     "s1-content" => 
     <<<EOD
-    <p>Über 11‘000 Personen haben auf unseren Aufruf hin eine Stellungnahme zur Revision des Sexualstrafrechts verschickt und fordern die Neudefinition von Vergewaltigung nach dem Grundsatz „Nur Ja heisst Ja“. Für uns ein wichtiger Zwischenerfolg: Noch nie haben sich in einer Vernehmlassung so viele Einzelpersonen zu einem Gesetzesentwurf geäussert!</p>
-    <p>Der Gesetzesentwurf geht nun zurück an die zuständige Kommission. Für uns ist klar: Das war erst der Anfang! Nun müssen wir sicherstellen, dass wir in den Kommissionen und Räten eine Mehrheit für unsere Forderung haben. Wir werden so lange kämpfen, bis das Gesetz nicht mehr das Patriarchat, sondern unsere sexuelle Selbstbestimmung schützt.</p>
-    <p>Bist du dabei? Werde heute noch Teil unseres Aktionsnetzwerkes und helfe uns bei der Mobilisierung und Durchführung von zukünftigen Aktionen. Als Aktivist*in laden wir dich zu Kampagnenveranstaltungen und -aktionen ein, halten dich über unsere online Kampagne auf dem laufenden und schicken dir unser Kampagnenmaterial.</p>
+    <p>Oltre 11'000 persone hanno aderito al nostro appello e inoltrato una presa di posizione sul progetto di revisione del diritto penale in materia sessuale, chiedendo una ridefinizione di violenza carnale secondo il principio "Solo se sì". Per noi è un successo molto importante: mai un numero così elevato di persone ha partecipato a una consultazione!</p>
+    <p>Il progetto di legge ora torna nella commissione competente. Per noi è chiaro: siamo solo all'inizio! Ora dobbiamo costruire delle maggioranze nelle commissioni e in Parlamento per le nostre rivendicazioni. Lotteremo affinché la legge protegga la nostra autodeterminazione, e non il patriarcato.</p>
+    <p>Vuoi partecipare anche tu? Diventa ancora oggi parte della nostra rete attivista e aiutaci per la mobilitazione e per l'organizzazione di azioni. Come attivista sarai invitata(-o) a degli eventi di campagna e ad azioni, ti informeremo sulla nostra campagna online e ti invieremo del materiale informativo.</p>
     EOD,
 
     "cta-title" => "Consent is Key!",
-    "cta-content" => "Mach unsere Forderung „Nur Ja heisst Ja“ jetzt sichtbar und bestelle unentgeltlich einen Soli-Schlüsselanhänger „Consent is key“! Das Design von Vollgas Studio zeigt, dass gegenseitige Zustimmung alles ist, wenn es um Sex geht.",
-    "cta-button" => "Anhänger bestellen",
-    "cta-link" => "https://www.sp-ps.ch/fr/porte-cles-seul-un-oui-est-un-oui",
+    "cta-content" => "Aiutaci a dare visibilità alla nostra rivendicazione «Solo se sì» e ordina gratuitamente un portachiavi.  «Consent is key»: il portachiavi mostra che il consenso reciproco è fondamentale quando si tratta di sesso.",
+    "cta-button" => "Ordinare il portachiavi",
+    "cta-link" => "https://www.sp-ps.ch/de/node/10035",
 
     "s2-title" => "Di che cosa si tratta?",
     "s2-content" => "La violenza sessuale è estremamente diffusa in Svizzera: una donna su cinque l’ha subita in prima persona. Chi appartiene a gruppi emarginati, e in particolare le donne non bianche, le donne disabili e le persone trans o intersessuali, è addirittura doppiamente mi-nacciato. Nonostante siano estremamente frequenti, in Svizzera queste massicce violazioni del diritto all’autodeterminazione sessuale rimangono perlopiù impunite. E una delle cause di questa impunità è il nostro diritto penale arcaico.",
@@ -61,7 +61,7 @@ $i18n = array(
     "s2-q2" => "Perche non è sufficiente?",
     "s2-a2" => "La realtà della violenza sessuale è completamente diversa da quello che la legge lascia intendere. In primo luogo, si può essere vittima di violenza carnale indipendentemente dal sesso e dal fisico. In secondo luogo, va considerata violenza carnale anche la penetrazione orale e anale non desiderata. In terzo luogo, il criterio decisivo della violenza carnale non è la costrizione, bensì l’assenza di consenso. Infatti, la violenza sessuale scatena nella vittima una reazione naturale a livello fisico simile a uno stato di shock. Gli autori o le autrici di questi reati devono raramente ricorrere alla violenza fisica, a minacce o ad altri mezzi per costringere la vittima ad avere un rapporto sessuale.",
     "s2-q3" => "Che cosa rivendichiamo?",
-    "s2-a3" => "Il diritto penale in materia di reati sessuali deve finalmente riconoscere l’esistenza della vio-lenza sessuale! Chiediamo con fermezza una ridefinizione dell’articolo 190 Violenza carnale del Codice penale seguendo il principio che afferma «Solo se sì»: Tutti gli atti sessuali imposta senza consenso deve essere considerata violenza carnale (art. 190 CP), indipendentemente dal sesso e dal fisico della persona che la subisce. Questa è l’unica soluzione per fare in modo che il diritto penale in materia di reati sessuali garantisca una tutela effetti-va del diritto all’autodeterminazione sessuale.",
+    "s2-a3" => "Il diritto penale in materia di reati sessuali deve finalmente riconoscere l’esistenza della vio-lenza sessuale! Chiediamo con fermezza una ridefinizione dell’articolo 190 Violenza carnale del Codice penale seguendo il principio che afferma «Solo se sì»: qualsiasi atto sessuale imposto senza consenso deve essere considerato violenza carnale, indipendentemente dal sesso e dal corpo della persona che la subisce. Questa è l’unica soluzione per fare in modo che il diritto penale in materia di reati sessuali garantisca una tutela effettiva del diritto all’autodeterminazione sessuale.",
     
 
     // DONATE
@@ -104,8 +104,49 @@ $i18n = array(
     EOD,
 
     // MESSAGES
-    "e-unknown" => "Da ist etwas schief gelaufen. Bitte versuch es nochmals!",
-    "e-already-registered" => "Du bist bereits für unser Aktionsnetzwerk eingetragen!"
+    "e-unknown" => "Qualcosa non ha funzionato. Per favore prova un'altra volta!",
+    "e-already-registered" => "Sei già registrata nella nostra rete attivista!",
+
+    // EMAIL
+    "email-subject" => "Rete d’azione «Solo se sì»",
+    "email-content" => <<<EOD
+    <h2 style="margin-top: 0.5rem; font-size: 21px;">Ciao {fname}</h2>
+    <p><b>Ti sei iscritta(-o) alla rete d’azione per la campagna “Solo se sì”: ci rallegriamo di averti al nostro fianco!</b></p>
+    <p>I pareri inoltrati nell’ambito della procedura di consultazione sulla riforma del diritto penale in materia sessuale sono in corso di valutazione. Ad agosto il dossier ritornerà alla Commissione degli affari giuridici del Consiglio degli Stati (CAG-S) e la Camera alta se ne occuperà verosimilmente durante la sessione invernale. Per assicurarci che i decisori ascoltino le nostre numerosissime voci, accompagneremo il processo parlamentare con azioni online e offline.</p>
+    <p>I preparativi per questo accompagnamento avanzano a pieno ritmo. Nel corso del mese di luglio ti invieremo una mail per informarti sulle varie possibilità di azione, sulle date degli eventi e su tutti i dettagli importanti.</p>
+    <p>Hai conoscenti o amiche che si interessano al tema? Racconta loro perché ritieni la campagna importante, e invitali di aderire alla nostra rete!</p>
+    <table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; box-sizing: border-box;">
+        <tbody>
+            <tr>
+                <td align="center" style="font-family: sans-serif; font-size: 14px; vertical-align: top; padding-bottom: 15px;">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;">
+                    <tbody>
+                    <tr>
+                        <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #25D366; border-radius: 5px; text-align: center;"> <a href="{WA-link}" target="_blank" style="min-width: 250px; display: inline-block; color: #ffffff; background-color: #25D366; border: solid 1px #25D366; border-radius: 5px; box-sizing: border-box; cursor: pointer; text-decoration: none; font-size: 14px; font-weight: bold; margin: 0; padding: 12px 25px; text-transform: capitalize; border-color: #25D366;">{WA-text}</a> </td>
+                    </tr>
+                    </tbody>
+                </table>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="font-family: sans-serif; font-size: 14px; vertical-align: top; padding-bottom: 15px;">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;">
+                    <tbody>
+                    <tr>
+                        <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; background-color: #0088CC; border-radius: 5px; text-align: center;"> <a href="{Tele-link}" target="_blank" style="min-width: 250px; display: inline-block; color: #ffffff; background-color: #0088CC; border: solid 1px #0088CC; border-radius: 5px; box-sizing: border-box; cursor: pointer; text-decoration: none; font-size: 14px; font-weight: bold; margin: 0; padding: 12px 25px; text-transform: capitalize; border-color: #0088CC;">{Tele-text}</a> </td>
+                    </tr>
+                    </tbody>
+                </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Insieme possiamo fare molto! Siamo felici di poter contare sul tuo sostegno per questa importante campagna!</p>
+    <p>Cari saluti e a presto.<br>
+    <b>Chiara Horber, membro del team Campagne del PS Svizzero</b></p>
+    EOD,
+    "email-foot1" => "Partito Socialista",
+    "email-foot2" => "Piazza Governo 4, 6500 Bellinzona",
     
 )
 
