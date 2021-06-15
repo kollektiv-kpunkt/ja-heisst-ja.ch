@@ -16,6 +16,7 @@ $i18n = array(
     // BUTTONS
     "b_participate" => "Mitmachen",
     "b_learnmore" => "Mehr erfahren",
+    "b_next" => "Weiter",
     "b_support" => "Unterstützen",
 
     // FORM DEFAULTS
@@ -136,6 +137,7 @@ $i18n = array(
     EOD,
     "email-foot1" => "Sozialdemokratische Partei der Schweiz, Zentralsekretariat",
     "email-foot2" => "Theaterplatz 4, Postfach, 3001 Bern",
+    "email-from" => "Aktionsnetzwerk «JA heisst JA»"
 )
 
 ?>

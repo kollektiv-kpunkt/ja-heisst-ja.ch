@@ -16,6 +16,7 @@ $i18n = array(
     // BUTTONS
     "b_participate" => "Partecipare",
     "b_learnmore" => "Per saperne di più",
+    "b_next" => "Continua",
     "b_support" => "Sostenere",
 
     // FORM DEFAULTS
@@ -32,7 +33,7 @@ $i18n = array(
     "phone" => "Telefono (opzionale)",
     "form_details" => "Si prega di completare i vostri dati:",
     "step3-title" => "Grazie del tuo impegno!",
-    "step3-content" => "Ora sei iscritta(-o) nella rete attivista per la campagna 'Solo se sì'. Tra poco riceverai una mail con ulteriori informazioni. Hai conoscenti o amiche che si interessano al tema? Racconta loro perché ritieni la campagna importante, e invitali di aderire alla nostra rete!",
+    "step3-content" => "Ora sei iscritt* alla rete attivista per la campagna «Solo se sì». Tra poco riceverai una mail con ulteriori informazioni. Hai conoscenti o amiche che si interessano al tema? Racconta loro perché ritieni la campagna importante, e invitali di aderire alla nostra rete!",
     "step3-wa-button" => "Condividere su WhatsApp",
     "step3-tele-button" => "Condividere su Telegram",
     "step3-mobitext" => "Il diritto penale in materia sessuale è in corso di revisione. Noi chiediamo una revisione secondo il principio «Solo se sì»: qualsiasi atto sessuale imposto senza consenso deve essere considerato violenza carnale, indipendentemente dal sesso e dal corpo della persona che la subisce. Questa è l’unica soluzione per fare in modo che il diritto penale in materia di reati sessuali garantisca una tutela effettiva del diritto all’autodeterminazione sessuale. Mi sono iscritta alla rete attivista «Solo se sì». Partecipi anche tu?",
@@ -44,9 +45,9 @@ $i18n = array(
     "s1-title" => "Attivati ora!",
     "s1-content" => 
     <<<EOD
-    <p>Oltre 11'000 persone hanno aderito al nostro appello e inoltrato una presa di posizione sul progetto di revisione del diritto penale in materia sessuale, chiedendo una ridefinizione di violenza carnale secondo il principio "Solo se sì". Per noi è un successo molto importante: mai un numero così elevato di persone ha partecipato a una consultazione!</p>
+    <p>Oltre 11'000 persone hanno aderito al nostro appello e inoltrato una presa di posizione sul progetto di revisione del diritto penale in materia sessuale, chiedendo una ridefinizione di violenza carnale secondo il principio «Solo se sì». Per noi è un successo molto importante: mai un numero così elevato di persone ha partecipato a una consultazione!</p>
     <p>Il progetto di legge ora torna nella commissione competente. Per noi è chiaro: siamo solo all'inizio! Ora dobbiamo costruire delle maggioranze nelle commissioni e in Parlamento per le nostre rivendicazioni. Lotteremo affinché la legge protegga la nostra autodeterminazione, e non il patriarcato.</p>
-    <p>Vuoi partecipare anche tu? Diventa ancora oggi parte della nostra rete attivista e aiutaci per la mobilitazione e per l'organizzazione di azioni. Come attivista sarai invitata(-o) a degli eventi di campagna e ad azioni, ti informeremo sulla nostra campagna online e ti invieremo del materiale informativo.</p>
+    <p>Vuoi partecipare anche tu? Diventa ancora oggi parte della nostra rete attivista e aiutaci per la mobilitazione e per l'organizzazione di azioni. Come attivista sarai invitat* a degli eventi di campagna e ad azioni, ti informeremo sulla nostra campagna online e ti invieremo del materiale informativo.</p>
     EOD,
 
     "cta-title" => "Consent is Key!",
@@ -111,9 +112,9 @@ $i18n = array(
     "email-subject" => "Rete d’azione «Solo se sì»",
     "email-content" => <<<EOD
     <h2 style="margin-top: 0.5rem; font-size: 21px;">Ciao {fname}</h2>
-    <p><b>Ti sei iscritta(-o) alla rete d’azione per la campagna “Solo se sì”: ci rallegriamo di averti al nostro fianco!</b></p>
-    <p>I pareri inoltrati nell’ambito della procedura di consultazione sulla riforma del diritto penale in materia sessuale sono in corso di valutazione. Ad agosto il dossier ritornerà alla Commissione degli affari giuridici del Consiglio degli Stati (CAG-S) e la Camera alta se ne occuperà verosimilmente durante la sessione invernale. Per assicurarci che i decisori ascoltino le nostre numerosissime voci, accompagneremo il processo parlamentare con azioni online e offline.</p>
-    <p>I preparativi per questo accompagnamento avanzano a pieno ritmo. Nel corso del mese di luglio ti invieremo una mail per informarti sulle varie possibilità di azione, sulle date degli eventi e su tutti i dettagli importanti.</p>
+    <p><b>Ti sei iscritt* alla rete d’azione per la campagna “Solo se sì”: ci rallegriamo di averti al nostro fianco!</b></p>
+    <p>I pareri inoltrati nell’ambito della procedura di consultazione sulla riforma del diritto penale in materia sessuale sono in corso di valutazione. Ad agosto il dossier ritornerà alla Commissione degli affari giuridici del Consiglio degli Stati (CAG-S) e la Camera alta se ne occuperà verosimilmente durante la sessione invernale. Per assicurarci che le nostre numerosissime voci vengano ascoltate, accompagneremo il processo parlamentare con azioni online e offline.</p>
+    <p>I preparativi avanzano a pieno ritmo. Nel corso del mese di luglio ti invieremo una mail per informarti sulle varie possibilità di azione, sulle date degli eventi e su tutti i dettagli importanti.</p>
     <p>Hai conoscenti o amiche che si interessano al tema? Racconta loro perché ritieni la campagna importante, e invitali di aderire alla nostra rete!</p>
     <table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; box-sizing: border-box;">
         <tbody>
@@ -147,6 +148,7 @@ $i18n = array(
     EOD,
     "email-foot1" => "Partito Socialista",
     "email-foot2" => "Piazza Governo 4, 6500 Bellinzona",
+    "email-from" => "Rete d’azione «Solo se sì»"
     
 )
 

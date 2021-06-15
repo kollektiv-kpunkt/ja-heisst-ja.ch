@@ -77,7 +77,7 @@ try {
     $mail->Port       = $emailPort;
 
     //Recipients
-    $mail->setFrom($emailFromEmail, $emailBCC);
+    $mail->setFrom($emailFromEmail, $i18n["email-from"]);
     $mail->addAddress($activist["activist_email"], "{$activist['activist_fname']} {$activist['activist_lname']}");
     $mail->CharSet  = 'UTF-8';
 

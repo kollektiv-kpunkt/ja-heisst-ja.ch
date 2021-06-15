@@ -73,7 +73,7 @@ $goal_format = number_format($goal, 0, ",", "'");
 		<input class="input-half" type="text" name="lname" placeholder="<?= $i18n["lname"] ?>" required>
 		<input type="email" name="email" placeholder="<?= $i18n["email"] ?>" required>
 		<input type="hidden" name="uuid" value="<?= uniqid("activist_") ?>">
-		<button class="button" type="submit"><?= $i18n["b_participate"] ?></button>
+		<button class="button" type="submit"><?= $i18n["b_next"] ?></button>
 	</form>
 	
 	<form action="" class="ajax-form" data-interface="2.php" data-step="2" style="display:none">

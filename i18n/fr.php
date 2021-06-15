@@ -16,6 +16,7 @@ $i18n = array(
     // BUTTONS
     "b_participate" => "Participer",
     "b_learnmore" => "En savoir plus",
+    "b_next" => "Suite",
     "b_support" => "Soutenir",
 
     // FORM DEFAULTS
@@ -147,6 +148,7 @@ $i18n = array(
     EOD,
     "email-foot1" => "Parti socialiste suisse, Secrétariat central",
     "email-foot2" => "Theaterplatz 4, Case postale, 3001 Bern",
+    "email-from" => "Réseau d’action « Seul un oui est un oui »"
 )
 
 ?>
