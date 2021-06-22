@@ -10,7 +10,7 @@ if ($pledges < 200) {
 } else if ($pledges < 400) {
 	$goal = 500;
 } else if ($pledges < 800) {
-	$goal = 100;
+	$goal = 1000;
 } else if ($pledges < 1200) {
 	$goal = 1600;
 } else {
